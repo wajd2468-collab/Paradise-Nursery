@@ -1,0 +1,31 @@
+.landing-page {
+  background-image: url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.landing-page.fade-out {
+  display: none;
+}
+
+.landing-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.get-started-button {
+  padding: 12px 30px;
+  font-size: 18px;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
